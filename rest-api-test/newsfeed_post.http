@@ -1,0 +1,7 @@
+POST http://localhost:8080/newsfeed HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Title test",
+    "post": "Some body"
+}
